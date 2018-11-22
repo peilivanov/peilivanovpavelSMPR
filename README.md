@@ -50,7 +50,7 @@
    
  **Результат**
  
- ![KNN](https://pp.userapi.com/c852132/v852132925/4c7a9/WLOamZ5zfoU.jpg)
+ ![KNN](https://user-images.githubusercontent.com/44859059/48863749-79177000-eddb-11e8-9967-8fc145049c53.png)
  
    
 
