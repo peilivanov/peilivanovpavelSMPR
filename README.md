@@ -58,6 +58,10 @@
  
  <a href="https://www.codecogs.com/eqnedit.php?latex=LOO(k,&space;X^l&space;)=&space;\sum_{i=1}^{l}&space;\left&space;[&space;a(x_i;&space;X^l\setminus&space;\lbrace&space;x_i&space;\rbrace&space;,&space;k)&space;\neq&space;y_i&space;\right&space;]&space;\rightarrow&space;\min_k&space;." target="_blank"><img src="https://latex.codecogs.com/gif.latex?LOO(k,&space;X^l&space;)=&space;\sum_{i=1}^{l}&space;\left&space;[&space;a(x_i;&space;X^l\setminus&space;\lbrace&space;x_i&space;\rbrace&space;,&space;k)&space;\neq&space;y_i&space;\right&space;]&space;\rightarrow&space;\min_k&space;." title="LOO(k, X^l )= \sum_{i=1}^{l} \left [ a(x_i; X^l\setminus \lbrace x_i \rbrace , k) \neq y_i \right ] \rightarrow \min_k ." /></a>
  
+ **Описание**
+ 
+ LOO проверяет алгоритмы на точность. Сначала исключаются по очереди по 1 элементу из выборки -> алгоритм обучается на оставшихся алгоритмах выборки -> извлеченныый элемент классифицируется ->  его ( элемент ) надо вернуть -> далее извлекается следующий и так далее со всеми элементами выборки => после всех проделанных действий можно заметить, где алгоритм ошибается.
+ 
  
  **Результат**
  
