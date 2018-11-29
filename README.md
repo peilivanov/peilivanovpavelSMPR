@@ -28,7 +28,7 @@
    
   **Результат**
   
-  ![1NN](https://pp.userapi.com/c847021/v847021209/1340ed/HXK78j3JD2A.jpg)
+  ![1NN](https://github.com/peilivanov/peilivanovpavelSMPR/blob/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA2345.PNG)
   
   ## Алгоритм K ближайших соседей
    **ТЕОРИЯ:**
