@@ -51,7 +51,7 @@
    
  **Результат**
  
- ![KNN](https://user-images.githubusercontent.com/44859059/48863749-79177000-eddb-11e8-9967-8fc145049c53.png)
+ ![KNN](https://github.com/peilivanov/peilivanovpavelSMPR/blob/master/knnPic.PNG)
  
    
 
