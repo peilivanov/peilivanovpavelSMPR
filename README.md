@@ -60,6 +60,7 @@
  
  
  **Результат**
+ 
  ![LOO](https://github.com/peilivanov/peilivanovpavelSMPR/blob/master/looPic.PNG)
  
    
