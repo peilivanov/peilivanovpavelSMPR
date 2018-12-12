@@ -87,3 +87,4 @@ colors <- c("setosa" = "red", "versicolor" = "green", "virginica" = "blue")
 xl <- iris[, 3:5] 
 class <- iris[, 5]
 LOO(xl,class)
+f
