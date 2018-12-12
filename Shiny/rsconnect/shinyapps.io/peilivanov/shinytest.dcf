@@ -1,0 +1,10 @@
+name: shinytest
+title:
+username:
+account: peilivanov
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 594847
+bundleId: 1723822
+url: https://peilivanov.shinyapps.io/shinytest/
+when: 1553436135.19364
