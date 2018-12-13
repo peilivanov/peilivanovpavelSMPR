@@ -68,17 +68,21 @@
  ![LOO](https://github.com/peilivanov/peilivanovpavelSMPR/blob/master/looPic.PNG)
  
  ## Алгоритм k взвешнных ближайших соседей
+ 
+ **Теория:**
+ 
+
  В каждом классе выбирается k ближайших к U объектов, и объект u относится к тому классу, для которого среднее расстояние до k ближайших соседей минимально.
  
  <a href="https://www.codecogs.com/eqnedit.php?latex=$w(i,x)&space;=&space;[i&space;\leq&space;k]w_i$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$w(i,x)&space;=&space;[i&space;\leq&space;k]w_i$" title="$w(i,x) = [i \leq k]w_i$" /></a> - метод k взвешнных ближайших соседей.
  
  w(i) - строго убывающая последовательность вещественных весов, задающая вклад i-го ссоседа при классификации объекта u.
  
- **Преимущества**
+ **Преимущества:**
  
   Главный плюс метода заключается в том, что учитывается степень близости объекта.
   
-  **Результат**
+  **Результат:**
   
   ![kWNN](https://github.com/peilivanov/peilivanovpavelSMPR/blob/master/KWNNpic.png)
   
