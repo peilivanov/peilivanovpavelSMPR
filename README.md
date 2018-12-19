@@ -98,9 +98,18 @@
 ## Линии уровня нормального распределения
 
  НОРМАЛЬНОЕ РАСПРЕДЕЛЕНИЕ - математическая модель, описывающая распределение случайных (независимых) величин; оно непрерывно, унимодально и симметрично и характеризуется тем, что, по мере удаления от среднего (максимального) значения, частота появления случайной величины падает. При известных параметрах эта модель хорошо апроксимирует статистические данные при достаточно большом объеме (выборке), несмотря на отдельные отклоне.
- Рассмотрим многомерное нормальное распределение. Пусть <a href="https://www.codecogs.com/eqnedit.php?latex=x\epsilon&space;\mathbb{R}^{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x\epsilon&space;\mathbb{R}^{n}" title="x\epsilon \mathbb{R}^{n}" /></a> вероятностное распределение с плотностью
+ 
+Рассмотрим многомерное нормальное распределение. Пусть <a href="https://www.codecogs.com/eqnedit.php?latex=x\epsilon&space;\mathbb{R}^{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x\epsilon&space;\mathbb{R}^{n}" title="x\epsilon \mathbb{R}^{n}" /></a> вероятностное распределение с плотностью
  
  ![](https://github.com/peilivanov/peilivanovpavelSMPR/blob/master/Bayes/z1.PNG)
+ 
+ называется n-мерным многомерным нормальным (гауссовским) распределением с математическим ожиданием (центром) n и ковариационной матрицей <a href="https://www.codecogs.com/eqnedit.php?latex=\mu&space;\epsilon&space;\mathbb{R}^{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mu&space;\epsilon&space;\mathbb{R}^{n}" title="\mu \epsilon \mathbb{R}^{n}" /></a>, которая является симметричной, невырожденной и положительно определенная.
+ 
+ **Пример:**
+ ![](https://github.com/peilivanov/peilivanovpavelSMPR/blob/master/Bayes/linelev.PNG)
+ 
+ 
+ 
  
  
    
