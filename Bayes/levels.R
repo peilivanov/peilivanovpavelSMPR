@@ -1,31 +1,57 @@
 norm = function(x, y, mu, sigma) {
-  x = matrix(c(x, y), 2, 1)
+  x = matrix(c(x, y), 1, 2)
   k = 1 / sqrt((2 * pi) ^ 2 * det(sigma))
-  e = exp(-0.5 * t(x - mu) %*% solve(sigma) %*% x - mu)
+  e = exp(-0.5 * (x - mu) %*% solve(sigma) %*% t(x - mu))
   return(k * e)
 }
-par(bg = 'black', fg = 'white')
-a = matrix(c(10,0,0,1), nrow = 2, ncol = 2 ) 
-q=5;
-plot(-q:q, -q:q, type = "n",asp=1)
-x=seq(-q, q, 0.1)
-y=seq(-q, q, 0.1)
 
-
-for(i in x){
-  for(j in y){
-    z = c(i, j)
-    plot = norm(i,j,0,a)
-    color = adjustcolor("green", plot*2 )
-    points(z[1], z[2], pch = 21,col=color,bg=color)
-  }
+server = function(input, output) {
+  
+  output$plot = renderPlot({
+    #Создаем тестовые данные
+    par(bg = 'black', fg = 'white')
+    
+    sigma = matrix(c(input$Ex,input$R,input$R,input$Ey), nrow = 2, ncol = 2 )
+    if(det(sigma)<=0){
+      output$msg = renderText({
+        "Определитель  <= 0 "
+        
+      })
+      return()
+    }
+    mu = matrix(c(input$Mx, input$My), 1, 2)
+    
+    m1 = (max(abs(input$Mx),abs(input$My)))
+    m2 = (max(abs(input$Ex),abs(input$Ey)))
+    m = max(m1,m2)
+    q=m+4;
+    s=q/50;
+    plot(-q:q, -q:q, type = "n",asp=1,xlab="Ось x", ylab="Ось y", col.lab="gold",col.axis="orange")
+    x=seq(-q, q, s)
+    y=seq(-q, q, s)
+    
+    for(i in x){
+      for(j in y){
+        z = c(i, j)
+        plot = norm(i,j,mu,sigma)
+        color = adjustcolor("red", plot*(m2/5)*10 )
+        points(z[1], z[2], pch = 21,col=color,bg=color)
+      }
+    }
+    
+    z = outer(x, y, function(x, y) {
+      sapply(1:length(x), function(i) norm(x[i], y[i], mu, sigma))
+      
+    })
+    
+    contour(x,y,z,add=T ,asp=1,lwd = 1, col = "white")
+  })
 }
 
 
 
-z = outer(x, y, function(x, y) {
-  sapply(1:length(x), function(i) norm(x[i], y[i], 0, a))
 
-})
 
-contour(x,y,z,add=T ,asp=1,lwd = 1)
+
+
+
