@@ -119,7 +119,7 @@
 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(c|x)=\frac{P(x|c)P(c))}{P(x)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(c|x)=\frac{P(x|c)P(c))}{P(x)}" title="P(c|x)=\frac{P(x|c)P(c))}{P(x)}" /></a>
- ![](https://github.com/peilivanov/peilivanovpavelSMPR/blob/master/Bayes/naiv.PNG)
+ 
  
  На рисунке выше:
 
