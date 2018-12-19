@@ -148,7 +148,7 @@ Sunny – Солнечная погода
 Rainy – Дождливая погода
 Overcast – Облачная погода
 
-**Пример вывода в програмной реализации**
+**Пример вывода в програмной реализации:**
 
 ![](https://github.com/peilivanov/peilivanovpavelSMPR/blob/master/Bayes/naiv.PNG)
 
