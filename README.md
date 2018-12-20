@@ -105,6 +105,8 @@
  
  называется n-мерным многомерным нормальным (гауссовским) распределением с математическим ожиданием (центром) n и ковариационной матрицей <a href="https://www.codecogs.com/eqnedit.php?latex=\mu&space;\epsilon&space;\mathbb{R}^{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mu&space;\epsilon&space;\mathbb{R}^{n}" title="\mu \epsilon \mathbb{R}^{n}" /></a>, которая является симметричной, невырожденной и положительно определенная.
  
+ <a href="https://peilivanov.shinyapps.io/LineLevels/">Реализация программы в ShinyAPP</a>
+ 
  **Пример:**
  ![](https://github.com/peilivanov/peilivanovpavelSMPR/blob/master/Bayes/linelev.PNG)
  
