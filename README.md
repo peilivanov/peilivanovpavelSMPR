@@ -230,5 +230,5 @@ Overcast – Облачная погода
 
 ![](https://github.com/peilivanov/peilivanovpavelSMPR/blob/master/Bayes/nai2.PNG)
 
-   
+   .
 ## Подстановочный алгоритм (Plug-in)
