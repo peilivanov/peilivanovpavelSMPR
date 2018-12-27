@@ -224,6 +224,8 @@ Overcast – Облачная погода
 
 **Пример вывода в програмной реализации:**
 
+ <a href="https://peilivanov.shinyapps.io/Naive_Normal_Bayes/">Реализация программы в ShinyAPP</a>
+
 ![](https://github.com/peilivanov/peilivanovpavelSMPR/blob/master/Bayes/naiv.PNG)
 
    
